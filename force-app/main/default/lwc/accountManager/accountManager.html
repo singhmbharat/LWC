@@ -1,0 +1,20 @@
+<template>
+    <template if:true={responseRecived}>
+    <lightning-card title="All Accounts">
+        <ul>
+            <template for:each= {accts.data} for:item ="account">
+
+                <li key = {account.id}>
+                    <div class="slds-box">
+                        <lightning-tile label={account.Name} type="media">
+                         <p class = 'slds-truncate'> title={account.Phone}</p>
+                        </lightning-tile> 
+                    </div>
+
+                </li>
+            </template>
+        </ul>
+
+    </lightning-card>
+    </template>    
+</template>

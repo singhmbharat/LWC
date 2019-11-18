@@ -1,0 +1,59 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/accountManager": [
+                "accountManager/accountManager.js"
+            ],
+            "c/accountManagerLDS": [
+                "accountManagerLDS/accountManagerLDS.js"
+            ],
+            "c/calculator": [
+                "calculator/calculator.js"
+            ],
+            "c/childComponent": [
+                "childComponent/childComponent.js"
+            ],
+            "c/contactlds": [
+                "contactlds/contactlds.js"
+            ],
+            "c/getAccountRecord": [
+                "getAccountRecord/getAccountRecord.js"
+            ],
+            "c/hello_world": [
+                "hello_world/hello_world.js"
+            ],
+            "c/meetingRoom": [
+                "meetingRoom/meetingRoom.js"
+            ],
+            "c/meetingRooms": [
+                "meetingRooms/meetingRooms.js"
+            ],
+            "c/parentComponent": [
+                "parentComponent/parentComponent.js"
+            ],
+            "c/record_edit_form": [
+                "record_edit_form/record_edit_form.js"
+            ],
+            "c/rentACar": [
+                "rentACar/rentACar.js"
+            ],
+            "c/selectcartype": [
+                "selectcartype/selectcartype.js"
+            ],
+            "c/showCars": [
+                "showCars/showCars.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

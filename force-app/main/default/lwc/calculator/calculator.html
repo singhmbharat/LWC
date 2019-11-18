@@ -1,0 +1,13 @@
+<template>
+   <lightning-card>
+       <lightning-input label="Enter First no" type="number" name='firstnum' onchange={numberchange}></lightning-input>
+       <lightning-input label="Enter Second no" type="number" name ='secondnum' onchange={numberchange}></lightning-input>
+       <lightning-button-group>
+       <lightning-button label="ADD" onclick={addfun}></lightning-button>
+       <lightning-button label="SUB" onclick={subfun}></lightning-button>
+       <lightning-button label="MUL" onclick={mulfun}></lightning-button>
+       <lightning-button label="DIV" onclick={divfun}></lightning-button>    
+    </lightning-button-group>
+    <div>{result}</div>
+       </lightning-card> 
+</template>

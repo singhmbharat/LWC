@@ -1,0 +1,18 @@
+<template>
+   <lightning-layout>
+   <lightning-layout-item>   
+   <ul>
+    <template for:each={meetingRoomsInfo}  for:item="room" >
+    <li key = {room.roomName}>
+       <c-meeting-room meeting-room-info = {room} show-room-info ontileclicked={onTileSelect}></c-meeting-room>
+     </li>
+       
+   </template>
+   </ul>
+   </lightning-layout-item>
+   <lightning-layout-item>
+
+      <div> you have selected : {selectedmeetingroom} </div>
+   </lightning-layout-item>
+   </lightning-layout>
+</template>
